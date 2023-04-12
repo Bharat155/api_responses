@@ -16,6 +16,11 @@ const apiSchema = mongoose.Schema({
         required: true,
         trim: true,
     },
+    one: {
+        type: String,
+        required: true,
+        trim: true,
+    },
     status:[{
         code: {
             type: Number,
